@@ -5,7 +5,10 @@ import {View, Text} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import TextInputComponent from './component/elements/TextInput';
-import Login from './component/auth/Login';
+import Login from './screens/auth/Login';
+import Register from './screens/auth/Register'
+import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
+
 
 
 const Stack = createNativeStackNavigator();

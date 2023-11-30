@@ -1,5 +1,5 @@
 import {View, Text, StyleSheet} from 'react-native';
-import TextInputComponent from '../elements/TextInput';
+import TextInputComponent from '../../component/elements/TextInput';
 
 const Login: React.FC = () => {
   return (
